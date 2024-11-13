@@ -1,5 +1,6 @@
 *{
     font-family: Ms Gothic;
+    overflow-x: hidden;
 }
 body{
     margin: 0px;
@@ -11,7 +12,6 @@ header{
     height: 10%;
     display: flex;
     justify-content: flex-start;
-    align-content: flex-end;
     padding: 1%;
     margin: 0px;
 }
@@ -35,18 +35,35 @@ header{
 .searchInput{
     margin-left: 0px;
 }
-
-.category{
-
+.logo{
+    float: right;
 }
 
 
+main{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+}
+.poster{
+    border: white solid 2px;
+    margin: 2%;
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    font-size: 18px;
+}
+.cost{
+    float: left;
+
+}
+.owner{
+    float: left;
+}
 
 .note{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-left: 5px;
 }
-p{
-    font-size: 20px;
-}
+
