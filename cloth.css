@@ -4,10 +4,10 @@
 }
 body{
     margin: 0px;
-    background-color: blue;
+    background-color: #162a2e
 }
 header{
-    background-color: cadetblue;
+    background-color: #26494f;
     width: 100%;
     height: 10%;
     display: flex;
@@ -25,7 +25,7 @@ header{
 }
 .searchInput,.mGlass{
     border: none;
-    background-color: cadetblue;
+    background-color: #26494f;
     font-size: 15px;
     color: white;
 }
@@ -41,17 +41,23 @@ header{
 
 
 main{
-    padding-left: 20%;
-    padding-right: 20%;
-    display: flex;
+    padding-left: 27%;
+    padding-right: 27%;
+    display: grid;
+    color: rgb(189, 189, 189);
+    grid-template-columns: auto auto auto;
 }
 .poster{
     border: white solid 2px;
     margin: 2%;
+    margin-top: 20px;
+    margin-bottom: 0;
     padding: 10px;
     height: 250px;
     width: 250px;
     font-size: 18px;
+    background: radial-gradient( #26494F, #162a2e);
+
 }
 .cost{
     float: left;
@@ -66,4 +72,3 @@ main{
     height: 18px;
     margin-left: 5px;
 }
-
