@@ -41,11 +41,12 @@ header{
 
 
 main{
-    padding-left: 27%;
-    padding-right: 27%;
+    padding-left: 20%;
+    padding-right: 20%;
     display: grid;
     color: rgb(189, 189, 189);
     grid-template-columns: auto auto auto;
+    column-gap: 3%;
 }
 .poster{
     border: white solid 2px;
@@ -54,17 +55,17 @@ main{
     margin-bottom: 0;
     padding: 10px;
     height: 250px;
-    width: 250px;
     font-size: 18px;
     background: radial-gradient( #26494F, #162a2e);
 
 }
 .cost{
     float: left;
-
+    width: 100%;
 }
 .owner{
     float: left;
+    width: 100%;
 }
 
 .note{
