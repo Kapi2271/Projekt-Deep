@@ -16,6 +16,19 @@ header{
     margin: 0px;
 }
 
+.shopHeader{
+    color: white;
+    text-align: center;
+    font-family: MS Gothic;
+    font-size: 36px;
+
+}
+.title{
+    height: 85px;
+}
+
+
+
 
 .search{
     border: none;
