@@ -16,17 +16,23 @@ header{
     margin: 0px;
 }
 
+
+
 .shopHeader{
     color: white;
     text-align: center;
     font-family: MS Gothic;
     font-size: 36px;
-
+    display: flex;
+    justify-content: flex-start;
 }
 .title{
     height: 85px;
 }
-
+.rombus{
+    height: 50px;
+    width: 80px;
+}
 
 
 
