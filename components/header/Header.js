@@ -1,10 +1,12 @@
 import React from 'react'
+import Logo from '../images/logo.png'
+import Lupa from '../images/lupa.png'
 
 const Header = () => {
   return (
     <header>
         <section class="search" id="search">
-            <img src="lupg.png" alt="Magnifing glass" class="mGlass" id="mGlass"/>
+            <img src={Lupa} alt="Magnifing glass" class="mGlass" id="mGlass"/>
             <input class="searchInput" id="searchInput" type="text" placeholder="Search Items:"/>
         </section>
         <p class="category-p">Item category:</p>
@@ -16,7 +18,7 @@ const Header = () => {
                 <option id="catItem">Item</option>
             </select>
         </section>
-        <img src="logo.png" alt="Deepwoken logo" class="logo" id="logo"/>
+        <img src={Logo} alt="Deepwoken logo" class="logo" id="logo"/>
     </header>
   )
 }
