@@ -1,0 +1,135 @@
+*{
+  font-family: Ms Gothic;
+  overflow-x: hidden;
+  color: #fff;
+}
+body{
+  margin: 0px;
+  background-color: #26494f;
+  display: block;
+}
+header{
+  background-color: #26494f;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5%;
+  margin: 0px;
+}
+
+.formularz{
+  text-align: center;
+}
+
+input {
+  color: black;
+}
+
+
+.shopHeader{
+  color: white;
+  text-align: center;
+  font-family: MS Gothic;
+  font-size: 36px;
+  display: inline;
+  justify-content: flex-start;
+}
+.title{
+  height: 85px;
+}
+.rombus{
+  height: 50px;
+  width: 80px;
+}
+
+
+
+.search{
+  border: none;
+  border-bottom: white 3px solid;
+  margin: 17px;
+  padding: 3px;
+  height: 50%;
+}
+.searchInput,.mGlass{
+  border: none;
+  background-color: #26494f;
+  font-size: 15px;
+  color: white;
+}
+.mGlass{
+  margin-right: 0px;
+  height: 20px;
+  width: 20px;
+}
+.searchInput{
+  margin-left: 0px;
+}
+.logo{
+  height: 70px;
+  width: 150px;
+  padding-left: 68%;
+}
+
+
+.category-p{
+  color: white;
+  width: 130px;
+  padding-left: 3px;
+  height: 50px;
+}
+.categoryContainer{
+  border: solid white 2px;
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+}
+option{
+  background-color: #162a2e;
+}
+select {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 50px;
+  width: 70px;
+  padding: 10px;
+  color: white;    
+}
+
+
+
+main{
+  padding-left: 20%;
+  padding-right: 20%;
+  display: grid;
+  color: rgb(189, 189, 189);
+  grid-template-columns: auto auto auto;
+  column-gap: 3%;
+}
+.poster{
+  border: white solid 2px;
+  margin: 2%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 10px;
+  height: 250px;
+  font-size: 18px;
+  background: radial-gradient( #26494F, #162a2e);
+
+}
+.cost{
+  float: left;
+  width: 100%;
+}
+.owner{
+  float: left;
+  width: 100%;
+}
+
+.note{
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
