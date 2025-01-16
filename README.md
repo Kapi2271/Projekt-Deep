@@ -5,3 +5,5 @@ Backend odpala się poprzez <node server.js> będąc w terminalu w folderze back
 
 A i komenda instalacji pakietów to npm install nazwa_pakietu
 Projekt react tworzysz komendą npx create-react-app nazwa_projektu
+
+OUTDATED
